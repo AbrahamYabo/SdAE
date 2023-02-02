@@ -24,8 +24,8 @@ python -m torch.distributed.launch --nproc_per_node 8 main_pretrain.py \
 
 ## Fine-tuning
 The fine-tuning instruction is in FINETUNE.md.
-```
 Taking Vit-Base fine-tuning as example:
+```
 python -m torch.distributed.launch --nproc_per_node 8 main_finetune.py --finetune {WEIGHT_DIR} \
         --batch_size 128 --epochs 100 --model  vit_base_patch16 --dist_eval --data_path {DATA_DIR} 
 ```
