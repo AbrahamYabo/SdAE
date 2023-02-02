@@ -33,7 +33,7 @@ python -m torch.distributed.launch --nproc_per_node 8 main_finetune.py --finetun
 ## Citation
 Please cite our paper if the code is helpful to your research.
 ```
-@inproceedings{liu2022source,
+@inproceedings{chen2022sdae,
     author = {Yabo Chen, Yuchen Liu,  Dongsheng Jiang, Xiaopeng Zhang, Wenrui Dai, Hongkai Xiong and Qi Tian},
     title = {SdAE: Self-distillated masked autoencoder},
     booktitle = {ECCV},
